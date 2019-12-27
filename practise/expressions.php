@@ -8,17 +8,13 @@
 </head>
 <body>
     <?php
-        
-        
-    
 
-        $fuel = 10;
-        while ($fuel > 1)
-        {
-        // Keep driving ...
-        echo "There's enough fuel";
-        }
-        
+     $count = 1;
+     while ($count <= 12)
+     {
+    echo "$count times 12 is " . $count * 12 . "<br>";
+    ++$count;
+     }
     ?>
 </body>
 </html>
